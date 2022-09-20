@@ -38,8 +38,8 @@ const BasketScreen = () => {
   }, [items]);
 
   return (
-    <SafeAreaView className='flex-1 bg-white'>
-      <View className={`flex-1 bg-gray-100 ${isAndroid}`}>
+    <SafeAreaView className={`flex-1 bg-white ${isAndroid}`}>
+      <View className='flex-1 bg-gray-100'>
         <View className='p-5 border-b border-[#00CCBB] bg-white shadow-xs'>
           <View>
             <Text className='text-lg font-bold text-center'>Basket</Text>
